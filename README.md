@@ -1,4 +1,4 @@
-#JS101 String Methods
+# JS101 String Methods
 
 What is a method?
 
@@ -15,7 +15,7 @@ lastIndexOf() to get last occurance
 var position = str.indexOf("myString");
 ```
 
-###Extracting parts of a string
+### Extracting parts of a string
 * slice(x, y) - returns the extracted part (slices out)
     - x is the starting position
     - y is the ending position (does not include end value in the return)
@@ -26,7 +26,7 @@ var position = str.indexOf("myString");
 
 * substr(x, y) - second parameter specifics the __length__ of the extracted part.
 
-###More methods - some accept parameters
+### More methods - some accept parameters
 * replace(x ,y) - replaces x with y
 * replace(/x/g, y) - can accept regular expression and global. Returns new string.
 * toUpperCase()
